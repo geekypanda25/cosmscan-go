@@ -1,5 +1,5 @@
 chain:
-  id: gaia
+  id: juno-1
   name: cosmos
 db:
   host: localhost
