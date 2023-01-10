@@ -1,6 +1,6 @@
 chain:
   id: juno-1
-  name: cosmos
+  name: juno
 db:
   host: localhost
   port: 5432
