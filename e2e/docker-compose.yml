@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   testchain:
-    image: tendermint/gaia:v7.1.0
+    image: tendermint/gaia:v4.2.1
     restart: always
     user: root
     volumes:
@@ -21,7 +21,7 @@ services:
       - 9090:9090
       - 9091:9091
   flood:
-    image: tendermint/gaia:v7.1.0
+    image: tendermint/gaia:v4.2.1
     restart: always
     user: root
     volumes:
